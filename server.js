@@ -15,8 +15,8 @@ app.enable('trust proxy');
 // Home Page
 app.get('/', function (req, res){
 	res.writeHead(200, {'Content-Type': 'text/plain'});
-	res.end('Visit https://ajibs-request-header-parser.herokuapp.com/whoami to get the ' +
-		'IP address, language and operating system for your browser.');
+	res.end("Visit:  'https://ajibs-request-header-parser.herokuapp.com/whoami'  to get the " +
+		"IP address, language and operating system for your browser.");
 });
 
 
